@@ -1,0 +1,63 @@
+
+
+
+
+
+
+
+
+Helped with the outline of the structure for loading the timer:
+
+https://stackoverflow.com/questions/52912160/start-timer-when-window-load
+
+
+Helped with figuring out how to make the ticket count 1-3:
+
+https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_comparison  Shows getElementById
+
+
+calculate total price:
+
+https://bito.ai/resources/javascript-calculate-total-price-javascript-explained/#:~:text=Utilizing%20Functions%20to%20Calculate%20Total%20Price&text=const%20total%20%3D%20addShippingCosts(calculateTotalPrice(,discounts%2C%20to%20the%20total%20price.
+isNaN
+https://www.w3schools.com/jsref/jsref_isnan.asp
+
+**Tried "let" first but it did not work **  https://bito.ai/resources/javascript-calculate-total-price-javascript-explained/#:~:text=Utilizing%20Functions%20to%20Calculate%20Total%20Price&text=const%20total%20%3D%20addShippingCosts(calculateTotalPrice(,discounts%2C%20to%20the%20total%20price.
+
+**This gave me the idea to switch to "var" ** https://codereview.stackexchange.com/questions/204630/purchase-tickets-calculation-with-javascript
+
+https://www.digitalocean.com/community/tutorials/how-to-do-math-in-javascript-with-operators
+
+**Helped with giving the outline of informaiton needed to calculate the total price **
+https://codereview.stackexchange.com/questions/204630/purchase-tickets-calculation-with-javascript
+
+
+Helped with the isNaN:
+
+https://www.w3schools.com/jsref/jsref_isnan.asp
+
+
+Helped explain how to use parsInt for validation for the number of tickets:
+
+https://www.w3schools.com/jsref/jsref_parseint.asp
+
+
+
+[startTimer]https://www.w3schools.com/jsref/met_win_clearinterval.asp
+and clear intervals
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

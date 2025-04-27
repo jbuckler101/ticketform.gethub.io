@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--
+		Your Name: <Andrea Buckler>
+		Last Modified Date: <05/07/2024>
+		File: event_registration.html
+		File Description: <This is the HTML that was provided with the project.  It provides the structure for the content used for the form.>
+-->
+<html>
+<head>
+    <title>DMWT Alumni Event Registration</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="event_registration.js"></script>
+</head>
+<body>
+	<header>
+		<img src="logo.png" width="315" height="62">
+	</header>
+	<article>
+		<section>
+			<p id="tagline">We are delighted to welcome back our alumni for an evening of networking and fun. Event tickets are only $5.00 per person, not including a ticket processing fee of $0.50, and include light appetizers. To register for the event, fill out the form below. All fields with <span class="required">*</span> are required</p>
+		</section>
+	
+		<section>
+			<p id="transactionTimer">Act fast! This transaction must be completed in <span id="timer">10:00</span> minutes</p>
+		</section>
+	
+		<section>
+			<form id="contact" action="FormMail.pl" method="post">
+				<fieldset>
+					<legend>Digital Media and Web Technology (DMWT) Alumni Event Registration</legend>
+				
+					<label for="lastnum">How many tickets would you like to purchase? You can purchase up to 3 tickets. <span class="required">*</span></label>
+					<input type="text" id="numTickets" name="numTickets" class="small" maxlength="3" onchange="calculateTotal();" />
+					<span id="msgTickets" class="error"></span>
+					
+					<label for="totalCost">Your total cost will be: </label>
+					<input type="text" id="totalCost" name="totalCost" class="small" value="$0.00" readonly/>
+
+					<div id="contactInformation">
+						<label for="name">Name <span class="required">*</span></label>
+						<input type="text" id="name" name="name" maxlength="100" />
+						<span id="msgname" class="error"></span>
+				
+						<label for="address">E-Mail Address <span class="required">*</span></label>
+						<input type="email" id="email" name="address" maxlength="60" />
+						<span id="msgemail" class="error"></span>
+						
+						<div class="actionButtons">
+							<input type="button" name="submit" id="submit" value="Purchase Tickets" onclick="completePurchase();" />
+							<input type="reset" name="reset" id="reset" value="Reset" />
+						</div>
+					</div>
+				</fieldset>
+			</form>
+		</section>
+	</article>
+</body>
+</html>
